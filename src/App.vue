@@ -2,12 +2,17 @@
   <div id="app">
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container">
+<<<<<<< HEAD
         <router-link to="/" class="navbar-brand">Pustaka Ica</router-link>
+=======
+        <router-link to="/" class="navbar-brand">Icaii Store</router-link>
+>>>>>>> bd062a7 (Initial commit)
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
             <router-link to="/" class="nav-link">Home</router-link>
           </li>
           <li class="nav-item">
+<<<<<<< HEAD
             <router-link to="/books" class="nav-link">Buku</router-link>
           </li>
           <li class="nav-item">
@@ -15,6 +20,18 @@
           </li>
           <li class="nav-item">
             <router-link to="/Member" class="nav-link">Anggota</router-link>
+=======
+            <router-link to="/books" class="nav-link">Book</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/categories" class="nav-link">Categories</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/Member" class="nav-link">Member</router-link>
+          </li>
+          <li class="nav-item">
+            <router-link to="/about" class="nav-link">About</router-link>
+>>>>>>> bd062a7 (Initial commit)
           </li>
         </ul>
       </div>
